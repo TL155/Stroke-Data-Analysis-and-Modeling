@@ -57,7 +57,7 @@ age_stroke = sns.barplot(
 plt.title('Stroke % by Age Group')
 plt.xlabel('Age Group')
 plt.ylabel('Stroke')
-# Bar labels above and formats to 2 deerrorbarmal places
+# Bar labels above and formats to 2 decimal places
 age_stroke.bar_label(age_stroke.containers[0], fmt ='%.2f%%') # Bar labels above
 plt.show()
 
@@ -74,7 +74,7 @@ gender_count = sns.barplot(
 plt.title('Stroke % by Gender')
 plt.xlabel('Gender')
 plt.ylabel('Stroke %')
-# Bar labels above and formats to 2 deerrorbarmal places
+# Bar labels above and formats to 2 decimal places
 gender_count.bar_label(gender_count.containers[0], fmt ='%.2f%%') 
 plt.show()
 
